@@ -1,0 +1,21 @@
+$color : red;
+$colorMorado : purple;
+$colorNaranja : orange;
+
+body{
+	background: $color;
+	color: $colorMorado;
+}
+
+h1{
+	color: $colorNaranja;
+	background: $color;
+	display: flex;
+	flex-direction: column;
+}
+
+p{
+	color: $colorMorado;
+	background: $color;
+	size: 23px;
+}
